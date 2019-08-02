@@ -1,0 +1,65 @@
+li {
+  width: 220px;
+  height: 380px;
+  overflow: hidden;
+  list-style: none;
+  color: #E9EAEB;
+  float: left;
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+li img {
+  width: 200px;
+  height: 305px;
+  margin-bottom: 15px;
+}
+
+.ratings {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  line-height: 48px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #F48F26;
+  display: inline-block;
+  position: absolute;
+  bottom: 97px;
+  right: 2px;
+}
+.movie-list-item{
+  cursor: pointer;
+}
+li .movie-list-item-title {
+  display: block;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+li .movie-list-item-release-year {
+  display: block;
+  font-size: 14px;
+  color: #8a9195;
+}
+.wl-ribbon.poster.not-inWL, .wl-ribbon.poster.retina.not-inWL {
+  background-position: -44px 0;
+}
+.wl-ribbon.poster, .wl-ribbon.poster.retina {
+  background-image: url(https://m.media-amazon.com/images/G/01/imdb/images/watchlist-ribbon-sprite-md-1415281079._V_.png);
+  height: 38px;
+  left: 22px;
+  top: 0px;
+  width: 38px;
+}
+.wl-ribbon.poster {
+  position: absolute;
+}
+.wl-ribbon.retina.inWL {
+  background-position: -8px -4px;
+  opacity: .6;
+}
